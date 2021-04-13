@@ -12,7 +12,7 @@
   * imageaccueil.jpg
 ## modèles hommes
   * A.LMONTRES/hommes.html
-  A.LMONTRES/style_pages.css
+  * A.LMONTRES/style_pages.css
   * AL01.jpg
   * AL02.jpg
   * AL03.jpg
