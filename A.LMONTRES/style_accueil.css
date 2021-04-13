@@ -1,0 +1,131 @@
+/* On a voulu mettre tout le site en noir avec une couleur d'écriture gris clair*/
+body
+{
+	background-color: black;
+	color: lightgrey
+}
+
+#bouton_menu
+{
+	text-align: left;
+	/* En-dessous, on fixe la taille de l'écriture à 50px et peu importe la largeur de la page, le menu sera à 5% de son bord gauche */
+	font-size: 50px;
+	margin-left: 5%;
+	/* Avec le code ci-dessous, la souris affivhe un 'pointeur' lorsqu'il survol le menu, ce qui indique que l'on peut cliquer dessus */
+	cursor: pointer;
+}
+
+/* Pour le menu, nous n'avons pas réussi à le mettre au premier plan, même avec un z-index */
+#menu
+{
+	width: 250px;
+	margin-left: 5%;
+	font-family: Arial;
+	background-color: black;
+	/* Le fond noir avait pour but de ne pas voir ce qu'il y a derrière le menu */
+	background-image: url("fondmenu.jpg");
+	/* Cela permet de créer un bord gris clair délimitant le menu */
+	border: solid;
+}
+
+h6
+{
+	font-size: 15px;
+}
+
+
+#titre
+{
+	margin-top: 150px;
+	/* Cela centre le texte */
+	text-align: center;
+	font-size: 60px;
+	font-family: Arial;
+}
+
+.img_accueil
+{
+	/* Une opacité de 0.9 permet de troubler un tout petit peu l'image */
+	opacity: 0.9;
+	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2
+{
+	font-size: 50px;
+	/* Le z-index permet de mettre cet élément au premier plan */
+	z-index: 10;
+	margin-left: 10px;
+	color: lightgrey;
+	font-family: Arial;
+}
+
+h3
+{
+	font-size: 15px;
+	text-align: center;
+	font-family: Arial;
+}
+
+.section
+{
+	position: relative;
+	margin-bottom: -110px;
+	opacity: 0.5;
+	/* Une width de 33% permet de donner à l'image 1/3 de la page */
+	width: 33%;
+	/* Reculer l'image permet encore une fois de mettre le texte au premier plan */
+	z-index: -100;
+}
+
+ul
+{
+	font-size: 10px;
+	margin-left: 10px;
+}
+
+p
+{
+	font-size: 8px;
+	margin-left: 40px;
+}
+
+
+#addresse
+{
+	font-size: 20px;
+	margin-left: 40px;
+}
+
+/* Le reste permet d'ajuster le style et la position du chronomètre*/
+.container
+{
+	margin-left: 80%;
+	margin-top: -930px;
+	width: 20%;
+}
+
+#output
+{
+	font-family: Arial;
+	font-size: 20px;
+	margin-left: 51%;
+}
+
+#controls
+{
+	margin-left: 50%;
+	font-family: Arial;
+
+}
+
+#startPause, #reset
+{
+	font-size: 10px;
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+}

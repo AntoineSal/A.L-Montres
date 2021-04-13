@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>almontres.com/al01</title>
+	<link rel="stylesheet" href="style_produit.css">
+	<script type="text/javascript" src="aljava.js"></script>
+</head>
+
+
+<body>
+
+	<span id="bouton_menu" onclick="javascript:afficher_menu('menu')"> = </span>
+	<div id="menu">
+		<h6> MENU </h6>
+		<h6>______________________________</h6>
+		<a href="hommes.html"><h6> NOS MODELES HOMMES</h6></a>
+		<h6>______________________________</h6>
+		<a href="femmes.html"><h6> NOS MODELES FEMMES </h6></a>
+		<h6>______________________________</h6>
+		<a href="bracelets.html"><h6> NOS BRACELETS </h6></a>
+		<h6>______________________________</h6>
+		<h6> CONNECTEZ VOUS</h6>
+	</div>
+	<script type="text/javascript"> afficher_menu('menu')</script>
+	<h1 id="titre"> A.L MONTRES</h1>
+
+	<h2> AL 01 </h2>
+
+	<div style="height:100px"></div>
+
+	<main>
+		<div class="diapo">
+			<div class="elements">
+				<div class="element">
+					<img id="img1" src="AL02.01.jpg" alt="img1">
+				</div>
+				<div class="element">
+					<img id="img1" src="AL02.02.jpg" alt="img2">
+				</div>
+			</div>
+			<i id="gauche"> < </i>
+			<i id="droite"> > </i>
+		</div>
+	</main>
+
+	<div style="height:30px"></div>
+
+	<p id="prix"><b> 1 500 Euros </b></p>
+	<p id="ttc"> TTC </p>
+
+	<div style="height:10px"></div>
+
+	<p id="commande"> Appeler le 06 37 84 18 97 pour prendre Rendez-Vous </p>
+
+	<div style="height:70px"></div>
+	
+	<table>
+		<thead>
+			<tr><th id="titretb"> DETAILS TECHNIQUES </th></tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td> Mouvement </td>
+				<td> Mécanique à Remonter mécanique </td>
+			</tr>
+			<tr>
+				<td> Fonctions </td>
+				<td> Heures, minutes, petite secondes</td>
+			</tr>
+			<tr>
+				<td> Boitier </td>
+				<td> 44 mm </td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div style="height:100px"></div>
+
+
+	<p id="addresse""> Notre Boutique A.L Montres : <a href="https://www.google.com/maps/place/7+Rue+du+Louvre,+75001+Paris/@48.8621754,2.3391463,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e23c409ec1f:0xa893a28429681799!8m2!3d48.8621754!4d2.341335"> 7 rue du Louvre 75001 Paris</a></p>
+
+	<ul>
+		<li> Réalisateurs : Louis Allio et Antoine Salomon </li>
+		<li> Producteurs : Louis Allio et Antoine Salomon </li>
+		<li> Concepteurs : Louis Allio et Antoine Salomon </li>
+		<li> Fabricants : Louis Allio et Antoine Salomon </li>
+	</ul>
+
+</body>
+</html>
